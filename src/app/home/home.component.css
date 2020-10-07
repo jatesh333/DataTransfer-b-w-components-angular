@@ -1,0 +1,26 @@
+.card{
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    border-color: wheat;
+    box-sizing: border-box;
+    grid-template-columns: fit-content(300px) fit-content(300px) 1fr;
+}
+.row{
+    padding-top: 30px;
+}
+.card-header{
+    color: skyblue;
+    font-family: fantasy;
+    font-size: 25px;
+}
+.card-body{
+    color: lightcoral;
+   
+    font-size: 14px;
+}
+.col-md-4{
+    padding-top: 20px;
+}
+

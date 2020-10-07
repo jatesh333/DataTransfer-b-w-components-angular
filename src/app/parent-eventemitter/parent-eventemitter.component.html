@@ -1,0 +1,13 @@
+<br>
+<br>
+<h1>Child to parent using Eventemitter</h1>
+<p class="header">Parent Component</p>
+<div>
+    {{message}}
+</div>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<app-child-eventemitter (messageEvent)="receiveMessage($event)"></app-child-eventemitter>
